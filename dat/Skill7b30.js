@@ -56,19 +56,19 @@
 	
 	fighter.skill[1] = new Skill("./img_p/war/cutdown_fighter.webp","ACTIVE","<font color='#8e6aac'>Cutdown</font>","5",[2,2],[{id:0,lv:1}],[{
 		level:2,sp:20,mp:3,power:"18.0%+90",casttime:0,cooltime:3,duration:undefined,
-		description:"Strike the ground with your sword from mid air, launching 5 enemies into the air. Low launch height."
+		description:"ตีพื้นด้วยดาบของคุณจากกลางอากาศ ทำให้ศัตรู 5 ตัวลอยขึ้นไปในอากาศ แต่ลอยในระดับต่ำ"
 	},{
 		level:5,sp:20,mp:4,power:"21.0%+110",casttime:0,cooltime:3,duration:undefined,
-		description:"Strike the ground with your sword from mid air, launching 6 enemies into the air. Low launch height."
+		description:"ตีพื้นด้วยดาบของคุณจากกลางอากาศ ทำให้ศัตรู 6 ตัวลอยขึ้นไปในอากาศ แต่ลอยในระดับต่ำ"
 	},{
 		level:8,sp:20,mp:5,power:"24.0%+130",casttime:0,cooltime:3,duration:undefined,
-		description:"Strike the ground with your sword from mid air, launching 7 enemies into the air. High launch height."
+		description:"ตีพื้นด้วยดาบของคุณจากกลางอากาศ ทำให้ศัตรู 7 ตัวลอยขึ้นไปในอากาศ และทำให้ลอยสูงขึ้น"
 	},{
 		level:11,sp:20,mp:6,power:"27.0%+150",casttime:0,cooltime:3,duration:undefined,
-		description:"Strike the ground with your sword from mid air, launching 8 enemies into the air. High launch height."
+		description:"ตีพื้นด้วยดาบของคุณจากกลางอากาศ ทำให้ศัตรู 8 ตัวลอยขึ้นไปในอากาศ และทำให้ลอยสูงขึ้น"
 	},{
 		level:14,sp:20,mp:7,power:"30.0%+170",casttime:0,cooltime:3,duration:undefined,
-		description:"Strike the ground with your sword from mid air, launching 9 enemies into the air. High launch height."
+		description:"ตีพื้นด้วยดาบของคุณจากกลางอากาศ ทำให้ศัตรู 9 ตัวลอยขึ้นไปในอากาศ และทำให้ลอยสูงขึ้น"
 	}]);
 	
 	fighter.skill[2] = new Skill("./img_p/war/stormblade.webp","ACTIVE","<font color='#8e6aac'>Storm Blade</font>","10",[2,4],[{id: 1,lv: 1}],[{

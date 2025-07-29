@@ -217,14 +217,14 @@ function loadtips(target,data,index,lv){
 	$(target).empty();
 	$(target).append(src.type+"<br/>");
 	$(target).append("<h4>"+src.name+"  Lv."+(lv+1)+"</h4>");
-	if(parentstr != "")$(target).append("Prerequisites : "+parentstr+"<br/>");
-	$(target).append("Level Restriction : "+src.parameter[lv].level+" or higher<br/>");
-	$(target).append("Required SP : "+src.parameter[lv].sp+"<br/>");
+	if(parentstr != "")$(target).append("เงื่อนไข : "+parentstr+"<br/>");
+	$(target).append("Level ที่ต้องการ : "+src.parameter[lv].level+" or higher<br/>");
+	$(target).append("ต้องการ SP : "+src.parameter[lv].sp+"<br/>");
 	if(src.parameter[lv].power != undefined)$(target).append("ATK : "+src.parameter[lv].power+"<br/>");
-	if(src.parameter[lv].mp != undefined)$(target).append("MP Consumption : "+src.parameter[lv].mp+"<br/>");
-	if(src.parameter[lv].casttime != undefined)$(target).append("Casting Time : "+src.parameter[lv].casttime+"s<br/>");
-	if(src.parameter[lv].cooltime != undefined)$(target).append("Cool Down Time : "+src.parameter[lv].cooltime+"s<br/>");
-	if(src.parameter[lv].duration != undefined)$(target).append("Duration : "+src.parameter[lv].duration+"s<br/>");
+	if(src.parameter[lv].mp != undefined)$(target).append("การใช้ MP : "+src.parameter[lv].mp+"<br/>");
+	if(src.parameter[lv].casttime != undefined)$(target).append("ระยะเวลาการร่าย : "+src.parameter[lv].casttime+"s<br/>");
+	if(src.parameter[lv].cooltime != undefined)$(target).append("คูลดาวน์ : "+src.parameter[lv].cooltime+"s<br/>");
+	if(src.parameter[lv].duration != undefined)$(target).append("ระยะเวลาของสกิล : "+src.parameter[lv].duration+"s<br/>");
 	if(src.parameter[lv].description != undefined)$(target).append("<br/>"+src.parameter[lv].description+"<br/>");
 	
 }
