@@ -39,7 +39,7 @@
 	
 	fighter.skill[0] = new Skill("./img_p/war/brow.webp","ACTIVE","<font color='#8e6aac'> Blow</font>","5",[2,0],[],[{
 		level:1,sp:10,mp:5,power:"15.0%+100",casttime:0,cooltime:3,duration:undefined,
-		description:"Thrusts 5 enemies with sword. Causes knockdown. Attacks fallen targets at level 3 or higher."
+		description:"แทงศัตรู 5 ตัวด้วยดาบ ทำให้ล้มลง โจมตีเป้าหมายที่ล้มอยู่ได้ที่เลเวล 3 หรือสูงกว่า"
 	},{
 		level:4,sp:10,mp:7,power:"17.0%+120",casttime:0,cooltime:3,duration:undefined,
 		description:"Thrusts 6 enemies with sword. Causes knock down. Attacks fallen targets at level 3 or higher."
