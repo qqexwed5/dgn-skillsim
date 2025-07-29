@@ -1,0 +1,220 @@
+.main {
+  background: url(../../../cdn.amtsft.com/FM_sPR0k3T26rz1IcNO59fqY4w.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 520px;
+  margin-top: -8px;
+}
+
+.bobina {
+  background: url(../img/vrZeRjn9YmqXyi5OsKoPp324bz.png) top center no-repeat;
+  position: absolute;
+}
+
+.fullwrapper {
+  background-image: url(../img/bg.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+b {
+  color: #6f6f6f;
+}
+
+a {
+  color: #8e6aac;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
+div.fullwrapper {
+  padding: 0px;
+  width: 820px;
+  height: 720px;
+  font-family: verdana;
+}
+div.version {
+  position: relative;
+  font-family: verdana;
+  font-size: 11px;
+  line-height: 15px;
+  width: 220px;
+  top: -22px;
+  left: 555px;
+  color: #9c9c9c;
+}
+div.notice {
+  padding-left: 29px;
+  margin: 0px;
+  padding-top: 5px;
+  font-size: 11px;
+  font-family: verdana;
+}
+div.header {
+  margin: 10px;
+  padding: 10px;
+  height: 53px;
+  font-family: verdana;
+  color: white;
+}
+
+div.contents {
+  margin: 10px;
+  padding: 10px;
+  height: 500px;
+  font-family: verdana;
+}
+
+div.footer {
+  margin: 10px;
+  padding: 10px;
+  font-family: verdana;
+}
+
+span {
+  margin-left: 20px;
+  margin-right: 0px;
+  font-family: verdana;
+}
+
+form {
+  display: inline;
+  margin-top: 10px;
+  font-family: verdana;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+input.num {
+  width: 30px;
+  border: #d9d9d9 1px solid;
+  font-family: verdana;
+}
+
+input.spin {
+  padding: 0px;
+  margin: 0px;
+  width: 15px;
+  height: 20px;
+  font-family: verdana;
+}
+
+h3 {
+  margin: 5px;
+  padding: 10px;
+  font-family: Arial narrow;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.jobname {
+  text-align: center;
+  margin: 2px 2px;
+  font-family: Arial narrow;
+  font-size: 25px;
+}
+
+table.skill {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: verdana;
+  font-size: 11px;
+  color: white;
+}
+
+div.skilltable {
+  margin: 10px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  float: left;
+  margin-top: 0px;
+  width: 420px;
+  height: 460px;
+  font-family: verdana;
+  font-size: 13px;
+}
+
+div.tips {
+  margin: 10px;
+  padding: 15px;
+  float: left;
+  margin-top: 0px;
+  width: 270px;
+  height: 460px;
+  font-family: verdana;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+textarea[readonly] {
+  background-color: #d9d9d9;
+  border: #cdcdcd 1px solid;
+  font-family: verdana, helvetica;
+  font-size: 11px;
+  line-height: 16px;
+  color: #000000;
+  cursor: default;
+}
+
+#tab_list {
+  line-height: 1em;
+  margin: 0px;
+  margin-left: 1em;
+  margin-bottom: 1px;
+  padding-left: 1px;
+  position: relative;
+  z-index: 0;
+  font-family: verdana;
+}
+
+#tab_list li {
+  cursor: default;
+  display: inline;
+  background-color: rgb(255, 255, 255);
+  padding: 0 10px;
+  margin: 0 0.1em;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+ul li#tab_2 {
+  background-color: rgb(189, 189, 172);
+}
+ul li#tab_3 {
+  background-color: rgb(189, 189, 172);
+}
+ul li#tab_4 {
+  background-color: rgb(189, 189, 172);
+}
+
+.comeback {
+  background: #880505;
+  display: inline-block;
+  margin-top: 11px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border: 2px solid #3e0000;
+  border-radius: 14px;
+  font-weight: bold;
+  color: #ffffd3;
+  font-size: 1.1em;
+  position: relative;
+  z-index: 2;
+}
+
+.comeback:hover {
+  background: #ffffd3;
+  color: #880505;
+  border: 2px solid #880505;
+  cursor: pointer;
+  text-decoration: none;
+}

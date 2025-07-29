@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+     <!-- Primary Meta Tags -->
+     <title>Dragonica Spidpex | Skill Simulator</title>
+     <meta name="title" content="Dragonica Spidpex | Skill Simulator" />
+     <meta name="description" content="Dragonica Spidpex Skill Simulator" />		
+
+		<style type="text/css">* {cursor: url("https://dragonicaspidpex.com/simulator/cursor.ico"), progress !important;}
+      a:hover{cursor: url("https://dragonicaspidpex.com/simulator/cursor_H.ico"), progress !important;}
+      </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link id="csslink" rel="stylesheet" href="dat/style.css" type="text/css" />
+    <script type="text/javascript" src="dat/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="dat/Skill7b30.js?v=4"></script>
+    <script type="text/javascript" src="dat/Core.js"></script>
+
+    <style>
+      * {
+        font-family: "Inter", sans-serif !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="bobina">
+        <div class="fullwrapper">
+          <div id="header" class="header">
+            <h3 class="caption">&nbsp;</h3>
+            <form id="info" name="F1" action="#">
+              <select id="jobselect" name="S1">
+                <option id="0">Knight → Paladin → Dragoon</option>
+                <option id="1">Gladiator → Myrmidon → Berserker</option>
+                <option id="2">Monk → Priest → Cleric</option>
+                <option id="3">Battlemage → Warlock → Sorcerer</option>
+                <option id="4">Hunter → Pathfinder → Sentinel</option>
+                <option id="5">Marksman → Specialist → Destroyer</option>
+                <option id="6">Bandit → Rogue → Savage</option>
+                <option id="7">Infiltrator → Assassin → Ninja</option>
+                <option id="8">Summoner → Elementalist → Spiritlord</option>
+                <option id="9">Gemini → Mirage → Jumeaux</option>
+              </select>
+              Level
+              <input class="num" name="Lv" value="1" type="text" />＋<input
+                class="num"
+                name="Plus"
+                value="0"
+                type="text"
+              />
+            </form>
+
+            <span class="spDisp"></span> SP
+            <!-- <div class="version" align="right"></div> -->
+          </div>
+          <div id="contents" class="contents">
+            <ul id="tab_list">
+              <li id="tab_1" target="#job0">Base Job</li>
+              <li id="tab_2" target="#job1">1st Job</li>
+              <li id="tab_3" target="#job2">2nd Job</li>
+              <li id="tab_4" target="#job3">3rd Job</li>
+            </ul>
+            <div class="d-flex flex-row flex-wrap flex-md-row">
+              <div id="job0" class="skilltable">
+                <span class="jobname">Class Name</span
+                ><span class="usesp">000SP</span><span class="skilltree"></span>
+              </div>
+              <div id="job1" class="skilltable">
+                <span class="jobname">Class Name</span
+                ><span class="usesp">000SP</span><span class="skilltree"></span>
+              </div>
+              <div id="job2" class="skilltable">
+                <span class="jobname">Class Name</span
+                ><span class="usesp">000SP</span><span class="skilltree"></span>
+              </div>
+              <div id="job3" class="skilltable">
+                <span class="jobname">Class Name</span
+                ><span class="usesp">000SP</span><span class="skilltree"></span>
+              </div>
+              <div id="tips" class="tips"></div>
+            </div>
+            </div>
+          <div class="notice" align="left">
+            The Skill Simulator is a work in progress and may not be 
+            100% accurate<br />
+            Once done putting the skillpoints into the skills, just send the website link to anyone
+            to share the build.<br />
+          </div>
+          <table
+            id="SkillTemp"
+            class="skill"
+            style="margin-top: 50px"
+            cellpadding="0"
+            cellspacing="0"
+          >
+            <tr>
+              <td rowspan="2">
+                <img class="icon" src="img_p/test.webp" alt="" /><br />
+              </td>
+              <td>
+                <input name="11" class="spin" type="button" value="+" /><br />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input name="12" class="spin" type="button" value="-" /><br />
+              </td>
+            </tr>
+            <tr>
+              <td class="s_lv" align="center">0/5</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
