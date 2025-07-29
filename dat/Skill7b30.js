@@ -42,16 +42,16 @@
 		description:"แทงศัตรู 5 ตัวด้วยดาบ ทำให้ล้มลง โจมตีเป้าหมายที่ล้มอยู่ได้ที่เลเวล 3 หรือสูงกว่า"
 	},{
 		level:4,sp:10,mp:7,power:"17.0%+120",casttime:0,cooltime:3,duration:undefined,
-		description:"Thrusts 6 enemies with sword. Causes knock down. Attacks fallen targets at level 3 or higher."
+		description:"แทงศัตรู 6 ตัวด้วยดาบ ทำให้ล้มลง โจมตีเป้าหมายที่ล้มอยู่ได้ที่เลเวล 3 หรือสูงกว่า"
 	},{
 		level:7,sp:10,mp:9,power:"19.0%+140",casttime:0,cooltime:3,duration:undefined,
-		description:"Thrusts 7 enemies with sword. Causes knock down. Attacks fallen targets."
+		description:"แทงศัตรู 7 ตัวด้วยดาบ ทำให้ล้มลง โจมตีเป้าหมายที่ล้มอยู่ได้"
 	},{
 		level:10,sp:10,mp:11,power:"21.0%+160",casttime:0,cooltime:3,duration:undefined,
-		description:"Thrusts 8 enemies with sword. Causes knock down. Attacks fallen targets."
+		description:"แทงศัตรู 8 ตัวด้วยดาบ ทำให้ล้มลง โจมตีเป้าหมายที่ล้มอยู่ได้"
 	},{
 		level:13,sp:10,mp:13,power:"23.0%+180",casttime:0,cooltime:3,duration:undefined,
-		description:"Thrusts 9 enemies with sword. Causes knock down. Attacks fallen targets."	
+		description:"แทงศัตรู 9 ตัวด้วยดาบ ทำให้ล้มลง โจมตีเป้าหมายที่ล้มอยู่ได้"
 	}]);
 	
 	fighter.skill[1] = new Skill("./img_p/war/cutdown_fighter.webp","ACTIVE","<font color='#8e6aac'>Cutdown</font>","5",[2,2],[{id:0,lv:1}],[{
