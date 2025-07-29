@@ -73,165 +73,165 @@
 	
 	fighter.skill[2] = new Skill("./img_p/war/stormblade.webp","ACTIVE","<font color='#8e6aac'>Storm Blade</font>","10",[2,4],[{id: 1,lv: 1}],[{
 		level:3,sp:20,mp:15,power:"8.0%+50",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 6 airborne targets. Targets are re-selected with each hit. "
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 6 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	},{
 		level:6,sp:20,mp:18,power:"11.0%+80",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 7 airborne targets. Targets are re-selected with each hit."		
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 7 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	},{
 		level:9,sp:20,mp:21,power:"14.0%+110",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 8 airborne targets. Targets are re-selected with each hit."		
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 8 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	},{
 		level:12,sp:20,mp:24,power:"17.0%+140",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 9 airborne targets. Targets are re-selected with each hit."		
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 9 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	},{
 		level:15,sp:20,mp:27,power:"20.0%+170",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 10 airborne targets. Targets are re-selected with each hit."
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 10 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	},{
 		level:"CARD",sp:20,mp:30,power:"23.0%+200",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 11 airborne targets. Targets are re-selected with each hit."		
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 11 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	},{
 		level:"CARD",sp:20,mp:33,power:"26.0%+230",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 11 airborne targets. Targets are re-selected with each hit."		
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 11 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	},{
 		level:"CARD",sp:20,mp:36,power:"29.0%+260",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 12 airborne targets. Targets are re-selected with each hit."		
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 12 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	},{
 		level:"CARD",sp:20,mp:39,power:"31.0%+290",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 12 airborne targets. Targets are re-selected with each hit."		
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 12 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	},{
 		level:"CARD",sp:20,mp:42,power:"34.0%+320",casttime:0,cooltime:5,duration:3,
-		description:"Creates a deadly whirlwind to hit 13 airborne targets. Targets are re-selected with each hit."			
+		description:"สร้างพายุหมุนมรณะเข้าโจมตีเป้าหมายที่ลอยอยู่กลางอากาศ 13 ตัว โดยเป้าหมายจะถูกเลือกใหม่ในทุกการโจมตี "
 	}]);
 	
 	fighter.skill[3] = new Skill("./img_p/war/framehammer.webp","ACTIVE","<font color='#8e6aac'>Blazing Youth</font>","10",[2,7],[{id:2,lv:2},{id:9,lv:1}],[{
 		level:7,sp:10,mp:10,power:"50.0%+300",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 5 enemies with a flaming hammer with a 50% chance to inflict Level 1 Burn. Launches targets at level 3 or higher."		
+		description:"โจมตีศัตรูสูงสุด 5 ตัวด้วยค้อนเพลิง มีโอกาส 50% ที่จะติดสถานะ เผาไหม้ระดับ 1 จะทำให้เป้าหมายลอยขึ้นในอากาศเมื่อสกิลถึงระดับ 3 หรือสูงกว่า"		
 	},{
 		level:10,sp:10,mp:13,power:"56.0%+325",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 7 enemies with a flaming hammer with a 55% chance to inflict Level 2 Burn. Launches targets at level 3 or higher."			
+		description:"โจมตีศัตรูสูงสุด 7 ตัวด้วยค้อนเพลิง มีโอกาส 55% ที่จะติดสถานะ เผาไหม้ระดับ 2 จะทำให้เป้าหมายลอยขึ้นในอากาศเมื่อสกิลถึงระดับ 3 หรือสูงกว่า"		
 	},{
 		level:13,sp:10,mp:16,power:"62.0%+350",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 9 enemies with a flaming hammer with a 60% chance to inflict Level 3 Burn. Low launch height."			
+		description:"โจมตีศัตรูสูงสุด 9 ตัวด้วยค้อนเพลิง มีโอกาส 60% ที่จะติดสถานะเผาไหม้ระดับ 3 ทำให้ศัตรูลอยขึ้นในอากาศแต่ลอยในระดับต่ำ"			
 	},{
 		level:16,sp:10,mp:19,power:"68.0%+375",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 11 enemies with a flaming hammer with a 65% chance to inflict Level 4 Burn. Low launch height."			
+		description:"โจมตีศัตรูสูงสุด 11 ตัวด้วยค้อนเพลิง มีโอกาส 65% ที่จะติดสถานะเผาไหม้ระดับ 4 ทำให้ศัตรูลอยขึ้นในอากาศแต่ลอยในระดับต่ำ"			
 	},{
 		level:19,sp:10,mp:22,power:"75.0%+400",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 13 enemies with a flaming hammer with a 70% chance to inflict Level 5 Burn. Low launch height."		
+		description:"โจมตีศัตรูสูงสุด 13 ตัวด้วยค้อนเพลิง มีโอกาส 70% ที่จะติดสถานะเผาไหม้ระดับ 5 ทำให้ศัตรูลอยขึ้นในอากาศแต่ลอยในระดับต่ำ"			
 	},{
 		level:"CARD",sp:10,mp:25,power:"80.0%+425",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 14 enemies with a flaming hammer with a 75% chance to inflict Level 6 Burn. Low launch height."			
+		description:"โจมตีศัตรูสูงสุด 14 ตัวด้วยค้อนเพลิง มีโอกาส 75% ที่จะติดสถานะเผาไหม้ระดับ 6 ทำให้ศัตรูลอยขึ้นในอากาศแต่ลอยในระดับต่ำ"			
 	},{
 		level:"CARD",sp:10,mp:28,power:"85.0%+450",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 15 enemies with a flaming hammer with a 80% chance to inflict Level 7 Burn. Low launch height."			
+		description:"โจมตีศัตรูสูงสุด 15 ตัวด้วยค้อนเพลิง มีโอกาส 80% ที่จะติดสถานะเผาไหม้ระดับ 7 ทำให้ศัตรูลอยขึ้นในอากาศแต่ลอยในระดับต่ำ"			
 	},{
 		level:"CARD",sp:10,mp:31,power:"90.0%+475",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 16 enemies with a flaming hammer with a 85% chance to inflict Level 8 Burn. Low launch height."			
+		description:"โจมตีศัตรูสูงสุด 16 ตัวด้วยค้อนเพลิง มีโอกาส 85% ที่จะติดสถานะเผาไหม้ระดับ 8 ทำให้ศัตรูลอยขึ้นในอากาศแต่ลอยในระดับต่ำ"			
 	},{
 		level:"CARD",sp:10,mp:34,power:"95.0%+500 ",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 17 enemies with a flaming hammer with a 90% chance to inflict Level 9 Burn. Low launch height."			
+		description:"โจมตีศัตรูสูงสุด 17 ตัวด้วยค้อนเพลิง มีโอกาส 90% ที่จะติดสถานะเผาไหม้ระดับ 9 ทำให้ศัตรูลอยขึ้นในอากาศแต่ลอยในระดับต่ำ"			
 	},{
 		level:"CARD",sp:10,mp:37,power:"100.0%+525",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack up to 18 enemies with a flaming hammer with a 95% chance to inflict Level 10 Burn. Low launch height."				
+		description:"โจมตีศัตรูสูงสุด 18 ตัวด้วยค้อนเพลิง มีโอกาส 95% ที่จะติดสถานะเผาไหม้ระดับ 10 ทำให้ศัตรูลอยขึ้นในอากาศแต่ลอยในระดับต่ำ"			
 	}]);
 	
 	fighter.skill[4] = new Skill("./img_p/war/swordmastery.webp","PASSIVE","<font color='#8e6aac'>Sword Mastery</font>","10",[5,0],[],[{
 		level:1,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +10 when using sword-type weapons."			
+		description:"เพิ่มพลังโจมตีทางกายภาพ +10 เมื่อใช้อาวุธประเภทดาบ"			
 	},{
 		level:5,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +25 when using sword-type weapons."
+		description:"เพิ่มพลังโจมตีทางกายภาพ +25 เมื่อใช้อาวุธประเภทดาบ"			
 	},{
 		level:9,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +40 when using sword-type weapons."
+		description:"เพิ่มพลังโจมตีทางกายภาพ +40 เมื่อใช้อาวุธประเภทดาบ"			
 	},{
 		level:13,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +55 when using sword-type weapons."
+		description:"เพิ่มพลังโจมตีทางกายภาพ +55 เมื่อใช้อาวุธประเภทดาบ"			
 	},{
 		level:17,sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +70 when using sword-type weapons."
+		description:"เพิ่มพลังโจมตีทางกายภาพ +70 เมื่อใช้อาวุธประเภทดาบ"			
 	},{
 		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +85 when using sword-type weapons."
+		description:"เพิ่มพลังโจมตีทางกายภาพ +85 เมื่อใช้อาวุธประเภทดาบ"			
 	},{
 		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +100 when using sword-type weapons."
+		description:"เพิ่มพลังโจมตีทางกายภาพ +100 เมื่อใช้อาวุธประเภทดาบ"			
 	},{
 		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +115 when using sword-type weapons."
+		description:"เพิ่มพลังโจมตีทางกายภาพ +115 เมื่อใช้อาวุธประเภทดาบ"			
 	},{
 		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +130 when using sword-type weapons."
+		description:"เพิ่มพลังโจมตีทางกายภาพ +130 เมื่อใช้อาวุธประเภทดาบ"			
 	},{
 		level:"CARD",sp:10,mp:undefined,power:undefined,casttime:undefined,cooltime:undefined,duration:undefined,
-		description:"Increases physical attack power by +145 when using sword-type weapons."
+		description:"เพิ่มพลังโจมตีทางกายภาพ +145 เมื่อใช้อาวุธประเภทดาบ"			
 	}]);
 	
 	fighter.skill[5] = new Skill("./img_p/war/airlaunch_fighter.webp","ACTIVE","<font color='#8e6aac'>Air Combo Launch</font>","5",[8,0],[],[{
 		level:1,sp:15,mp:2,power:"16.0%+50",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack and launch 5 enemy targets into the air. Launched targets can be attacked if skill level reaches higher than 2. "		
+		description:"โจมตีและทำให้ศัตรู 5 เป้าหมายลอยขึ้นไปในอากาศ เป้าหมายที่ลอยอยู่จะสามารถถูกโจมตีซ้ำได้หากระดับสกิลสูงกว่า 2 "		
 	},{
 		level:4,sp:15,mp:3,power:"19.0%+80",casttime:0,cooltime:2,duration:undefined,
-		description:"Attack and launch 6 enemy targets into the air. Launched targets can be attacked if skill level reaches higher than 2. "		
+		description:"โจมตีและทำให้ศัตรู 6 เป้าหมายลอยขึ้นไปในอากาศ เป้าหมายที่ลอยอยู่จะสามารถถูกโจมตีซ้ำได้หากระดับสกิลสูงกว่า 2 "		
 	},{
 		level:7,sp:15,mp:4,power:"22.0%+110",casttime:0,cooltime:2,duration:undefined,
-		description:"Attacks and launches 7 enemies targets into the air. "		
+		description:"โจมตีและทำให้ศัตรู 7 เป้าหมายลอยขึ้นไปในอากาศ "		
 	},{
 		level:10,sp:15,mp:5,power:"25.0%+140",casttime:0,cooltime:2,duration:undefined,
-		description:"Attacks and launches 8 enemies targets into the air. "		
+		description:"โจมตีและทำให้ศัตรู 8 เป้าหมายลอยขึ้นไปในอากาศ "		
 	},{
 		level:13,sp:15,mp:6,power:"28.0%+170",casttime:0,cooltime:2,duration:undefined,
-		description:"Attacks and launches 9 enemies targets into the air. "		
+		description:"โจมตีและทำให้ศัตรู 9 เป้าหมายลอยขึ้นไปในอากาศ "		
 	}]);
 	
 	fighter.skill[6] = new Skill("./img_p/war/relunch_fighter.webp","ACTIVE","<font color='#8e6aac'>Re-Launch</font>","5",[8,2],[{id:5,lv:1}],[{
 		level:2,sp:10,mp:5,power:"20.0%+110",casttime:0,cooltime:5,duration:undefined,
-		description:"Attacks 2 fallen targets to re-launch them into the air. "		
+		description:"โจมตีเป้าหมายที่ล้มอยู่ 2 ตัว เพื่อทำให้พวกมันลอยขึ้นไปในอากาศอีกครั้ง "		
 	},{
 		level:5,sp:10,mp:7,power:"24.0%+130",casttime:0,cooltime:5,duration:undefined,
-		description:"Attacks 4 fallen targets to re-launch them into the air. "		
+		description:"โจมตีเป้าหมายที่ล้มอยู่ 4 ตัว เพื่อทำให้พวกมันลอยขึ้นไปในอากาศอีกครั้ง "		
 	},{
 		level:8,sp:10,mp:9,power:"28.0%+150",casttime:0,cooltime:5,duration:undefined,
-		description:"Attacks 6 fallen targets to re-launch them into the air. "		
+		description:"โจมตีเป้าหมายที่ล้มอยู่ 6 ตัว เพื่อทำให้พวกมันลอยขึ้นไปในอากาศอีกครั้ง "		
 	},{
 		level:11,sp:10,mp:11,power:"32.0%+170",casttime:0,cooltime:5,duration:undefined,
-		description:"Attacks 8 fallen targets to re-launch them into the air. "		
+		description:"โจมตีเป้าหมายที่ล้มอยู่ 8 ตัว เพื่อทำให้พวกมันลอยขึ้นไปในอากาศอีกครั้ง "		
 	},{
 		level:14,sp:10,mp:13,power:"36.0%+190",casttime:0,cooltime:5,duration:undefined,
-		description:"Attacks 10 fallen targets to re-launch them into the air. "		
+		description:"โจมตีเป้าหมายที่ล้มอยู่ 10 ตัว เพื่อทำให้พวกมันลอยขึ้นไปในอากาศอีกครั้ง "		
 	}]);
 	
 	fighter.skill[7] = new Skill("./img_p/war/sworddance.webp","ACTIVE","<font color='#8e6aac'>Sword Dance</font>","10",[8,4],[{id:6,lv:1}],[{
 		level:3, sp:10, mp:15, power:"40.0%+60", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 5 enemies and knock them down. Range increases with each level up to Level 5."		
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 5 ตัวและทำให้พวกเขาล้มลง ระยะโจมตีจะเพิ่มขึ้นตามแต่ละเลเวลสูงสุดที่เลเวล 5."
 	},{
-		level:6, sp:10, mp:18, power:"43.0%+90", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 5 enemies and knock them down. Range increases with each level up to Level 5. "		
+    	level:6, sp:10, mp:18, power:"43.0%+90", casttime:0, cooltime:3,duration:undefined,
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 5 ตัวและทำให้พวกเขาล้มลง ระยะโจมตีจะเพิ่มขึ้นตามแต่ละเลเวลสูงสุดที่เลเวล 5."
 	},{
-		level:9, sp:10, mp:21, power:"46.0%+120", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 6 enemies and knock them down. Range increases with each level up to Level 5. "		
+    	level:9, sp:10, mp:21, power:"46.0%+120", casttime:0, cooltime:3,duration:undefined,
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 6 ตัวและทำให้พวกเขาล้มลง ระยะโจมตีจะเพิ่มขึ้นตามแต่ละเลเวลสูงสุดที่เลเวล 5."
 	},{
-		level:12, sp:10, mp:24, power:"49.0%+150", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 6 enemies and knock them down. Range increases with each level up to Level 5. "		
+    	level:12, sp:10, mp:24, power:"49.0%+150", casttime:0, cooltime:3,duration:undefined,
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 6 ตัวและทำให้พวกเขาล้มลง ระยะโจมตีจะเพิ่มขึ้นตามแต่ละเลเวลสูงสุดที่เลเวล 5."
 	},{
-		level:15, sp:10, mp:27, power:"52.0%+180", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 7 enemies and knock them down. Reaches max range."		
+    	level:15, sp:10, mp:27, power:"52.0%+180", casttime:0, cooltime:3,duration:undefined,
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 7 ตัวและทำให้พวกเขาล้มลง ถึงระยะโจมตีสูงสุด."
 	},{
-		level:"CARD", sp:10, mp:30, power:"55.0%+210", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 7 enemies and knock them down. Reaches max range."		
+    	level:"CARD", sp:10, mp:30, power:"55.0%+210", casttime:0, cooltime:3,duration:undefined,
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 7 ตัวและทำให้พวกเขาล้มลง ถึงระยะโจมตีสูงสุด."
 	},{
-		level:"CARD", sp:10, mp:33, power:"58.0%+240", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 8 enemies and knock them down. Reaches max range."		
+    	level:"CARD", sp:10, mp:33, power:"58.0%+240", casttime:0, cooltime:3,duration:undefined,
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 8 ตัวและทำให้พวกเขาล้มลง ถึงระยะโจมตีสูงสุด."
 	},{
-		level:"CARD", sp:10, mp:37, power:"61.0%+270", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 8 enemies and knock them down. Reaches max range."		
+    	level:"CARD", sp:10, mp:37, power:"61.0%+270", casttime:0, cooltime:3,duration:undefined,
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 8 ตัวและทำให้พวกเขาล้มลง ถึงระยะโจมตีสูงสุด."
 	},{
-		level:"CARD", sp:10, mp:40, power:"64.0%+300", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 9 enemies and knock them down. Reaches max range."		
+    	level:"CARD", sp:10, mp:40, power:"64.0%+300", casttime:0, cooltime:3,duration:undefined,
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 9 ตัวและทำให้พวกเขาล้มลง ถึงระยะโจมตีสูงสุด."
 	},{
-		level:"CARD", sp:10, mp:43, power:"67.0%+330", casttime:0, cooltime:3,duration:undefined,
-		description:"Throw sword to attack up to 9 enemies and knock them down. Reaches max range."		
-	}]);
+    	level:"CARD", sp:10, mp:43, power:"67.0%+330", casttime:0, cooltime:3,duration:undefined,
+    	description:"โยนดาบเพื่อโจมตีศัตรูสูงสุด 9 ตัวและทำให้พวกเขาล้มลง ถึงระยะโจมตีสูงสุด."
+}]);
 	
 	fighter.skill[8] = new Skill("./img_p/war/frosthammer.webp","ACTIVE","<font color='#8e6aac'>Icecold Heart</font>","10",[8,7],[{id:7,lv:2},{id:9,lv:1}],[{
 		level:7,sp:10,mp:10,power:"50.0%+300",casttime:0,cooltime:2,duration:undefined,
